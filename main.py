@@ -13,8 +13,8 @@ from classes import message
 from classes import API
 import os
 
-#insert API key here
-apiCalls = API.API("1581260146:AAFLWEi-bu-Em4M7g93YIq131TGrT0C6cJg")
+#insert API token here
+apiCalls = API.API("Enter API token here")
 commandObj = apiCalls.GetMessage()
 
 
