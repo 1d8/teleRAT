@@ -5,9 +5,13 @@ Python based RAT that uses Telegram for sending commands and receiving data to a
 
 # Setup.py
 
-Insert your API key into the `api` variable inside the setup.py script & run it. This will setup your Telegram chat with your created bot with the necessary commands to avoid inserting each command along with the help message.
+1. Insert your API key into the `api` variable inside the setup.py script & run it. This will setup your Telegram chat with your created bot with the necessary commands to avoid inserting each command along with the help message.
+* Read [here](https://www.teleme.io/articles/create_your_own_telegram_bot?hl=en) to create your own bot and obtain your API token.
 
-Read [here](https://www.teleme.io/articles/create_your_own_telegram_bot?hl=en) to create your own bot and obtain your API token.
+2. Install necessary requirements: `pip install -r requirements.txt`
+3. Send a command to your Telegram bot
+4. Run `python3 main.py`
+
 
 ## Available Commands
 
